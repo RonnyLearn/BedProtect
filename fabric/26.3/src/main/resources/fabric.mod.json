@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "bedprotect",
+	"version": "${version}",
+	"name": "BedProtect",
+	"description": "Stops beds from exploding in the Nether and the End. Smart protection lets a bed blow up only when the blast deals at most 5 hearts and you survive.",
+	"authors": [
+		"RonnyLearn"
+	],
+	"contact": {
+		"sources": "https://github.com/RonnyLearn/BedProtect"
+	},
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.ronnylearn.bedprotect.BedProtectMod"
+		],
+		"modmenu": [
+			"net.ronnylearn.bedprotect.ModMenuIntegration"
+		]
+	},
+	"suggests": {
+		"modmenu": "*"
+	},
+	"mixins": [
+		{
+			"config": "bedprotect.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"fabric-api": "*",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
