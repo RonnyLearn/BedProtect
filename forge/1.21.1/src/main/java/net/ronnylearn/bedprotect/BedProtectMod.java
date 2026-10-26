@@ -123,6 +123,7 @@ public class BedProtectMod {
 
 	private static void onTick(Minecraft client) {
 		BedProtectCommands.endTick();
+		SourceWarning.tick(client);
 		LocalPlayer player = client.player;
 		if (player == null || client.level == null) {
 			lookedAt = null;

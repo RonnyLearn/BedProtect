@@ -146,5 +146,12 @@
 	"bedprotect.check.fall_value": "%1$s бл. → ещё −%2$s",
 	"bedprotect.check.fall_safe": "%s бл. — без урона",
 	"bedprotect.check.hazards": "Опасности",
-	"bedprotect.check.no_hazards": "нет"
+	"bedprotect.check.no_hazards": "нет",
+	"bedprotect.source.title": "⚠ ВНИМАНИЕ: BedProtect скачан не с официального сайта!",
+	"bedprotect.source.danger": "Копии с неофициальных сайтов могут содержать вирусы и другое вредоносное ПО.",
+	"bedprotect.source.support": "Скачай мод с официальной страницы на Modrinth: так ты защитишь себя и поддержишь автора.",
+	"bedprotect.source.link": "» Открыть официальную страницу на Modrinth «",
+	"bedprotect.source.hide": "[Скрыть предупреждение]",
+	"bedprotect.source.hide.hover": "Больше не показывать это предупреждение",
+	"bedprotect.source.hidden": "Предупреждение о неофициальной загрузке скрыто."
 }

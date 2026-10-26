@@ -79,6 +79,10 @@ final class BedProtectCommands {
 						changed(ctx.getSource(), tr("bedprotect.set.reserve", TEXT, Texts.hearts(config.getReserveHearts(), TEXT)));
 						return Command.SINGLE_SUCCESS;
 					})))
+			.then(literal("hidewarning").executes(ctx -> {
+				SourceWarning.hide();
+				return Command.SINGLE_SUCCESS;
+			}))
 			.then(literal("reset").executes(ctx -> {
 				config.reset();
 				changed(ctx.getSource(), tr("bedprotect.set.reset", TEXT));

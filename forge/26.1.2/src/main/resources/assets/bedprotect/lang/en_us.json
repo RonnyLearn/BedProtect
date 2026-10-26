@@ -146,5 +146,12 @@
 	"bedprotect.check.fall_value": "%1$s blocks → −%2$s more",
 	"bedprotect.check.fall_safe": "%s blocks — no damage",
 	"bedprotect.check.hazards": "Dangers",
-	"bedprotect.check.no_hazards": "none"
+	"bedprotect.check.no_hazards": "none",
+	"bedprotect.source.title": "⚠ WARNING: BedProtect was downloaded from an unofficial site!",
+	"bedprotect.source.danger": "Copies from unofficial sites may contain viruses or other malware.",
+	"bedprotect.source.support": "Please download the mod from its official Modrinth page to stay safe and support the author.",
+	"bedprotect.source.link": "» Open the official page on Modrinth «",
+	"bedprotect.source.hide": "[Hide this warning]",
+	"bedprotect.source.hide.hover": "Do not show this warning again",
+	"bedprotect.source.hidden": "The warning about an unofficial download is hidden."
 }

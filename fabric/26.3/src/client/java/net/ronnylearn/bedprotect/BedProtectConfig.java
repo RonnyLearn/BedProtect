@@ -162,6 +162,10 @@ public class BedProtectConfig {
 		return config;
 	}
 
+	static Path directory() {
+		return FILE.getParent();
+	}
+
 	public void save() {
 		try {
 			Files.createDirectories(FILE.getParent());
