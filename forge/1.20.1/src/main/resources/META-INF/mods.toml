@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="bedprotect"
+version="${version}"
+displayName="BedProtect"
+authors="RonnyLearn"
+description='''Stops beds from exploding in the Nether and the End. Smart protection lets a bed blow up only when the blast deals at most 5 hearts and you survive.'''
+
+[[dependencies.bedprotect]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.bedprotect]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="CLIENT"

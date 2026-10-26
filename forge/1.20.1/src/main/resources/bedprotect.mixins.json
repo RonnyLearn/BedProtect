@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"refmap": "bedprotect.refmap.json",
+	"package": "net.ronnylearn.bedprotect.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ChatComponentAccessor",
+		"ClientPacketListenerMixin",
+		"HudMixin",
+		"KeyMappingMixin",
+		"MinecraftMixin",
+		"MultiPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

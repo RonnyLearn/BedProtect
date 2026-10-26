@@ -39,13 +39,21 @@ All settings are also on the mod's page in Mod Menu. English and Russian are inc
 
 ## Source code
 
-| Minecraft | Fabric |
-|---|---|
-| 26.3 | [fabric/26.3](fabric/26.3) |
+| Minecraft | Fabric | Forge |
+|---|---|---|
+| 26.3 | [fabric/26.3](fabric/26.3) | [forge/26.3](forge/26.3) |
+| 26.2 | [fabric/26.2](fabric/26.2) | [forge/26.2](forge/26.2) |
+| 26.1.2 | [fabric/26.1.2](fabric/26.1.2) | [forge/26.1.2](forge/26.1.2) |
+| 1.21.4 | [fabric/1.21.4](fabric/1.21.4) | [forge/1.21.4](forge/1.21.4) |
+| 1.21.1 | [fabric/1.21.1](fabric/1.21.1) | [forge/1.21.1](forge/1.21.1) |
+| 1.20.4 | [fabric/1.20.4](fabric/1.20.4) | [forge/1.20.4](forge/1.20.4) |
+| 1.20.1 | [fabric/1.20.1](fabric/1.20.1) | [forge/1.20.1](forge/1.20.1) |
 
-Requires Fabric API. Mod Menu is optional.
+Fabric requires Fabric API; Mod Menu is optional. Forge needs nothing else; the settings screen is
+under Mods → BedProtect → Config. The blast calculation follows each version's own rules (for example,
+straw beds exist only in 26.3, and 1.20.1 rounds blast damage down to whole points).
 
-To build, run `gradlew build` in [fabric/26.3](fabric/26.3). The jar appears in `build/libs`.
+To build, run `gradlew build` in the folder of the version you want. The jar appears in `build/libs`.
 
 ## License
 

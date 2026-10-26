@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.ronnylearn.bedprotect.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ChatComponentAccessor",
+		"KeyMappingMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
